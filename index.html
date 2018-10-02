@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>TD EUROSNAB</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -110,12 +110,19 @@
                     </a>
                 </div>
             </div>
+            <!--Карта Яндекс начало-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 text-center">
+                    <div id="tabs"  style="width: 100%">
+                        <div id="map" style="width: 100%; height: 400px; padding: 0;"></div>
+                    </div>
+                </div>
+            </div>
+            <!--Карта Яндекс конец-->
         </div>
     </div>
 </div>
-</div>
 
-</div>
 <div class="footer">
     Copyright © 2018
 </div>
@@ -125,6 +132,26 @@
 <!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
 <script src="js/bootstrap.js"></script>
 <script src="holder/holder.js"></script>
+
+
+<script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+
+<!--
+    Основная библиотека JQuery.
+    Яндекс предоставляет хостинг JavaScript-библиотек
+-->
+<script src="//yandex.st/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+
+<!-- Библиотека JQuery.UI. Используем для работы со вкладками -->
+<script src="//yandex.st/jquery-ui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+
+<!-- CSS JQuery.UI. Используем для отрисовки вкладок -->
+<link rel="stylesheet" href="//yandex.st/jquery-ui/1.8.15/themes/humanity/jquery.ui.all.min.css" type="text/css"/>
+
+<script src="js/hiddendiv.js" type="text/javascript"></script>
+
+
+
 </body>
 </html>
 
