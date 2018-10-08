@@ -125,6 +125,7 @@ ul, ol {
     background-color: #30323A;
     color: #ffffff;
     height: 78px;
+    box-shadow: 0 2px 1px #c7ddef;
 }
 
 #header .container {
@@ -132,11 +133,12 @@ ul, ol {
 }
 
 #left_menu > button {
-
-
     background-color: #30323a;
     color: #1EB2DF;
-
+    text-align: left;
+    white-space: normal;
+    width: 100%;
+    border-color: #36672c;
 }
 
 #img_logo {
@@ -166,3 +168,6 @@ ul, ol {
 
 
 
+.btn.wrap-normal{
+    white-space: normal;
+}
